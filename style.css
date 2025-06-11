@@ -19,9 +19,11 @@ h1 {
 }
 
 h2 {
-  margin: 0;
+  /* margin: 0; */
+  margin: 64px 0 0;
   font-weight: normal;
   font-size:20px;
+  text-align: center;
 }
 
 h3 {
@@ -32,6 +34,7 @@ h3 {
 
 p {
   margin: 0;
+  text-align: center;
 }
 
 .container {
@@ -66,4 +69,40 @@ header ul {
   margin-top: 4px;
   width: 100%;
   max-width: 800px;
+}
+
+/* article */
+article {
+  text-align: center;
+  margin-top: 32px;
+}
+article p {
+  margin-top: 16px;
+}
+
+
+/* profile */
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.profile p {
+  margin-top: 16px;
+}
+
+
+/* contents */
+.contents ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.contents li {
+  margin-top: 32px;
 }
