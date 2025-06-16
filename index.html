@@ -16,9 +16,9 @@
         <h1>Massa Web</h1>
         <nav>
           <ul>
-            <li><a href="product.html">product</a></li>
-            <li>golf</li>
-            <li>training</li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="contents">Contents</a></li>
           </ul>
         </nav>
       </div>
@@ -30,37 +30,48 @@
     </section>
 
     <main>
-      <article>
-        <h2>News</h2>
+      <article id="news">
+        <h2>--News--</h2>
         <p>ホームページ作成中</p>
       </article>
 
-      <section class="profile">
-        <h2>profile</h2>
+      <section class="profile" id="profile">
+        <h2>--profile--</h2>
         <img src="profile.jpeg" width="80" height="80" alt="profile">
-        <p>こんにちは、まきゆです。Web制作勉強中です。
+        <p>こんにちは、まきゆです。<br>Web制作勉強中です。
         </p>
       </section>
 
-      <section class="contents">
-        <h2>contents</h2>
+      <section class="contents" id="contents">
+        <h2>--contents--</h2>
         <ul>
           <li>
-            <img src="product.jpeg">
-            <h3>product</h3>
+            <a href="product.html">
+              <img src="product.jpeg">
+              <h3>product</h3>
+            </a>
           </li>
           <li>
-            <img src="golf.jpeg">
-            <h3>Golf</h3>
+            <a href="golf.html">
+              <img src="golf.jpeg">
+              <h3>Golf</h3>
+            </a>
           </li>
           <li>
-            <img src="training.jpeg">
-            <h3>training</h3>
+            <a href="training.html">
+              <img src="training.jpeg">
+              <h3>training</h3>
+            </a>
           </li>
         </ul>
       </section>
 
     </main>
+
+    <footer>
+      <small>(c) 2025 Massa Works. All right reserved.</small>
+    </footer>
+
   </div>
 </body>
 </html>

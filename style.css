@@ -37,6 +37,15 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #ccc;
+}
+
 .container {
   max-width: 800px;
   width: calc(100% - 64px);
@@ -88,6 +97,7 @@ article p {
 
 .profile img {
   border-radius: 50%;
+  margin-top: 16px;
 }
 
 .profile p {
@@ -104,5 +114,41 @@ article p {
 }
 
 .contents li {
-  margin-top: 32px;
+  margin-top: 16px;
+}
+
+
+
+/* footer */
+footer {
+  margin: 64px 0;
+  text-align: center;
+}
+
+
+/* golf-page */
+.golf-page {
+  text-align: center;
+
+  p {
+    margin-top: 32px;
+  }
+
+  h3 {
+    margin-top: 32px;
+  }
+
+  a {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 32px;
+    background: #aaa;
+  }
+
+  a:hover {
+    background: #ddd;
+  }
+
 }
